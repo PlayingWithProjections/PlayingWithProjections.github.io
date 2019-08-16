@@ -9,7 +9,7 @@ the source for organisations.
 
 ## Add a new post
 
-`hugo new posts/[name].md
+`hugo new doc/[name].md
 
 ## Testing
 

@@ -4,36 +4,28 @@ date: 2019-08-16T19:32:11+02:00
 draft: true
 ---
 
-## Important information for the workshop.
+You can find all the information necessary to complete the workshop *Playing with projections* here.
 
-It would be nice if you clone this repo and check a client in your favorite technology before the workshop.
-If can get the client to run, you're all set. We will complete the first steps together in the workshop.
+## Before you start
 
-## Getting started
-Clone or fork this repo.
+### 1. Generating data
 
-## Choose your preferred technology
+Read [this](/doc/generating_data) post and come back here when you are done.
 
-Look in the client directories to get started in your preferred technology:
+### 2. Picking a technology
 
-- [Clojure](/clojure)
+Please pick your preferred technology, and follow the readme for that repo.
+
 - [C# (dotnetcore)](/csharp)
-- [Elixir](/elixir)
-- [Elm](/elm)
-- [F#](/fsharp)
 - [Java](/java)
-- [javascript](/js)
-- [Kotlin](/kotlin)
-- [Php](/php)
-- [Python](/python)
-- [Ruby](/ruby)
-- [ELK stack](/extra/elk)
+- [Javascript](/js)
+- [Reason](https://github.com/PlayingWithProjections/reason)
 
-## Make it run
+## You have picked a technology and it is running
 
-Read the README.md of the choosen technology, and make it run.
+If the client runs with the generated data, you're all set. We will complete the first steps together in the workshop.
 
-## First step
+### First step
 
 Modify the code to print:
 
@@ -58,5 +50,3 @@ The event stream contains several types of events. The event stream is a JSON ar
   }
 }
 ```
-
-
