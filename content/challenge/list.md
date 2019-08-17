@@ -8,8 +8,8 @@ We recommend you to start with the basic challenges and do them ordered. Once yo
 
 ## Basic
 
-1. Count the number of events
-1. Count the number of registered players
+1. [Count the number of events](/challenge/count_number_of_events)
+1. [Count the number of registered players](/challenge/count_number_of_registered_players)
 1. Count the number of players registered per month
 1. Find the most popular quizzes
 1. Look for inactive players
