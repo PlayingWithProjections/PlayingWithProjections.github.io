@@ -7,6 +7,8 @@ description: "All the necessary information to complete the workshop!"
 
 You can find all the information necessary to complete the workshop *Playing with projections* here.
 
+In the top bar you can always find a direct link to this page and other useful pages.
+
 ## Before you start
 
 ### 1. Generating data
@@ -19,7 +21,7 @@ Please pick your preferred technology, and follow the readme for that repo.
 
 - [C# (dotnetcore)](/csharp)
 - [Java](/java)
-- [Javascript](/js)
+- [Javascript](https://github.com/PlayingWithProjections/javascript)
 - [Reason](https://github.com/PlayingWithProjections/reason)
 
 ## You have picked a technology and it is running
@@ -37,3 +39,5 @@ playing_with_projections/
 ```
 
 Now you can go on to explore [the domain](/doc/domain) and read about the [api](/doc/api).
+
+Once you are done with this you can start with [the challenges](/challenge/list).
