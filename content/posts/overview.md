@@ -23,7 +23,19 @@ Please pick your preferred technology, and follow the readme for that repo.
 
 ## You have picked a technology and it is running
 
-If the client runs with the generated data, you're all set. We will complete the first steps together in the workshop.
+If the client runs with the generated data, you're all set. 
+Verify that you have a directory structure like this:
+
+```
+playing_with_projections/
+|--- data/
+|    |--- example.json
+|    |--- stream.json
+|--- [preferred technology]/
+|    |--- ...
+```
+
+Now you can go on to explore [the domain](/doc/domain).
 
 ### First step
 
@@ -35,18 +47,3 @@ Modify the code to print:
 
 ## Short description
 
-The event stream contains several types of events. The event stream is a JSON array of events. An event is structured like this:
-
-```json
-{
-  'id': 'a unique id for this event'
-  'type': 'the type of the event',
-  'timestamp': 'the moment the event happened',
-  'payload': {
-    // key-value pairs specific to the event type
-    'key1': 'value1',
-    'key2': 'value2';
-    ...
-  }
-}
-```
