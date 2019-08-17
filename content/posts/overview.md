@@ -2,6 +2,7 @@
 title: "Overview"
 date: 2019-08-16T19:32:11+02:00
 draft: true
+description: "All the necessary information to complete the workshop!"
 ---
 
 You can find all the information necessary to complete the workshop *Playing with projections* here.
