@@ -35,15 +35,4 @@ playing_with_projections/
 |    |--- ...
 ```
 
-Now you can go on to explore [the domain](/doc/domain).
-
-### First step
-
-Modify the code to print:
-
-- The number of events in the stream.
-- The distinct type of events in the stream.
-- Check the [wiki](https://github.com/michelgrootjans/playing_with_projections/wiki)
-
-## Short description
-
+Now you can go on to explore [the domain](/doc/domain) and read about the [api](/doc/api).
