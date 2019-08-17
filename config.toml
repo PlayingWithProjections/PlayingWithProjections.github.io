@@ -9,7 +9,7 @@ paginate = 20
   # "light" or "dark"
   defaultTheme = "dark"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
   # Show reading time in minutes for posts
   showReadingTime = false
 
@@ -36,3 +36,17 @@ paginate = 20
     #
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "overview"
+        name = "Overview"
+        url = "/posts/overview"
+      [[languages.en.menu.main]]
+        identifier = "domain"
+        name = "Domain"
+        url = "/doc/domain"
+      [[languages.en.menu.main]]
+        identifier = "challenges"
+        name = "Challenges"
+        url = "/challenge/list"
