@@ -17,7 +17,8 @@ Read [this](/doc/generating_data) post and come back here when you are done.
 
 ### 2. Picking a technology
 
-Please pick your preferred technology, and follow the readme for that repo.
+Please pick your preferred technology, and follow the readme for that repo. We **strongly urge** you to pick the language that you know best.
+Although you can use this workshop for learning a new language, it's not the goal of the workshop.
 
 - [C# (dotnetcore)](/csharp)
 - [Java](/java)
