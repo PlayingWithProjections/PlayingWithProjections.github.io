@@ -16,6 +16,6 @@ The events are ordered on time, so you should not do any ordering yourself.
 
 TODO
 
-**[Next challenge](/challenge/find_inactive_players)**
+**[Next challenge](/challenge/find_most_popular_quizzes)**
 
 
