@@ -6,9 +6,9 @@ draft: true
 
 This should be self-explanatory. Most repository technologies start with this example implemented.
 
-Make it run, then validate your answer
+Make it run, then validate your answer.
 
-## The answer
+## Answer
 
 TODO
 
