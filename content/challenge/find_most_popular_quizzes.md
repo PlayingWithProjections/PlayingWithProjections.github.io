@@ -5,16 +5,19 @@ draft: true
 ---
 
 The most popular quiz is the quiz that has most played games.
-We are looking for the top 10 of the most popular quizzes per month and in total. The answer must contain the name and the id of the quiz.
+We are looking for the top 10 of the most popular quizzes per month. The answer must contain the name and the id of the quiz.
 
-So we want 2 answers:
+### Domain question
 
-- 10 most popular quizzes per month
-- 10 most popular in total
+What does the most played games really mean?
+
+## Bonus question
+
+Also provide the total most popular quiz (when you have the time)
 
 ### Tip
 
-You can do this challenge as 2 projections, one projection for the answer per month, and one projection for the total. Or you can build it as one projection.
+Try to use your projection from the first part of the challenge, rather than implement a new projection.
 
 ## Answer
 
