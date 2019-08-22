@@ -22,6 +22,7 @@ Not all the advanced challenges have to be done in order. It might be a better i
 
 1. [Verify marketing campaign](/challenge/verify_marketing_campaign)
 1. [Look for bots](/challenge/look_for_bots)
-1. [Who won this quiz](/challenge/who_won_the_quiz)
-1. [Top player of the month](/challenge/top_player_of_the_month) (depends on look for bots and who won this quiz)
+1. [Who won this game](/challenge/who_won_the_game)
+1. [Who has the quiz high score](/challenge/who_has_the_quiz_high_score) (depends on look for bots and who won this game)
+1. [Top player of the month](/challenge/top_player_of_the_month) (depends on look for bots and who won this game)
 

@@ -10,6 +10,6 @@ Make it run, then validate your answer.
 
 ## Answer
 
-TODO
+{{< spoiler text="Click to reveal answer" >}}TODO{{< /spoiler >}}
 
 **[Next challenge](/challenge/count_number_of_registered_players)**

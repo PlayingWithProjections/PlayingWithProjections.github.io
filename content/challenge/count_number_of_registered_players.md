@@ -8,7 +8,9 @@ This should also be self-explanatory. We'd like to know how many players have re
 
 ## Answer
 
+{{< spoiler text="click to reveal answer" >}}
 TODO
+{{</ spoiler >}}
 
 **[Next challenge](/challenge/count_number_of_registered_players_per_month)**
 
