@@ -1,0 +1,11 @@
+<!--Uses Bootstap to show a clickable panel that reveals it's content
+	See documentation for more details:
+		'docs/shortcodes/spoiler.md'
+-->
+<div class="spoiler {{ .Get "class" }}">
+	<input type="checkbox" id="spoilerid_{{ .Ordinal }}">
+	<label for="spoilerid_{{ .Ordinal }}">{{ .Get "text" }}</label>
+	<div class="spoiler_body">
+		{{ .Inner | markdownify }}
+	</div>
+</div>
