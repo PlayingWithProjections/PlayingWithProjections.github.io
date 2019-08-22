@@ -14,7 +14,9 @@ The events are ordered on time, so you should not do any ordering yourself.
 
 ## Answer
 
+{{< spoiler text="click to reveal answer" >}}
 TODO
+{{</ spoiler >}}
 
 **[Next challenge](/challenge/find_most_popular_quizzes)**
 
