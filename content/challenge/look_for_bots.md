@@ -1,7 +1,7 @@
 ---
 title: "Look for bots"
 date: 2019-08-17T09:46:26+02:00
-draft: true
+draft: false
 ---
 
 We have the feeling that we might have cheaters in our system. So we would like you to find the cheaters.

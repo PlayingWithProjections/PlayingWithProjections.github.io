@@ -1,7 +1,7 @@
 ---
 title: "Eventstore API"
 date: 2019-08-17T09:51:06+02:00
-draft: true
+draft: false
 ---
 
 As an exercise we have hugely simplfied the API while trying to find the relevant details necessary to implement this workshop.

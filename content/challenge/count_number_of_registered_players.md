@@ -1,7 +1,7 @@
 ---
 title: "Count the number of registered players"
 date: 2019-08-17T09:42:20+02:00
-draft: true
+draft: false
 ---
 
 This should also be self-explanatory. We'd like to know how many players have registered in total.

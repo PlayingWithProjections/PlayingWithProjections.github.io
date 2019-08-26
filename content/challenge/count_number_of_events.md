@@ -1,7 +1,7 @@
 ---
 title: "Count the total number of events"
 date: 2019-08-17T09:40:38+02:00
-draft: true
+draft: false
 ---
 
 This should be self-explanatory. Most repository technologies start with this example implemented.

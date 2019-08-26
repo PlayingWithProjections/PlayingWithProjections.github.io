@@ -1,7 +1,7 @@
 ---
 title: "Domain"
 date: 2019-08-17T09:33:28+02:00
-draft: true
+draft: false
 ---
 
 A listing of the events can be found [here](/pdf/event_types.pdf).

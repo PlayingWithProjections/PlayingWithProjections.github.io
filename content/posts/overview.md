@@ -1,7 +1,7 @@
 ---
 title: "Overview"
 date: 2019-08-16T19:32:11+02:00
-draft: true
+draft: false
 description: "All the necessary information to complete the workshop!"
 ---
 

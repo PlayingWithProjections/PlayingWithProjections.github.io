@@ -1,7 +1,7 @@
 ---
 title: "Overview of the challenges"
 date: 2019-08-17T10:10:46+02:00
-draft: true
+draft: false
 ---
 
 We recommend you to start with the basic challenges and do them ordered. Once you feel comfortable doing those you can pick one of the advanced challenges.

@@ -1,7 +1,7 @@
 ---
 title: "Determine the winner of a game"
 date: 2019-08-17T09:46:36+02:00
-draft: true
+draft: false
 ---
 
 The winner of a game is the player with the most points in total for the game. Points are scored per question.

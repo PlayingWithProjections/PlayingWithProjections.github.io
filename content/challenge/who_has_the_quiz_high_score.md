@@ -1,7 +1,7 @@
 ---
 title: "Determine the high score of a quiz"
 date: 2019-08-17T09:46:36+02:00
-draft: true
+draft: false
 ---
 
 This answer depends on [Look for bots](/challenge/look_for_bots) and [Who won this game](/challenge/who_won_the_game)
