@@ -9,9 +9,30 @@ We are looking for the top 10 of the most popular quizzes per month. The answer 
 
 ### Domain question
 
-What does the most played quizzes really mean?
+What does the most played quizzes really mean? (see Spoilers)
 
-{{% spoiler text="Show me how" %}}
+
+
+## Bonus question
+
+Also provide the total most popular quiz (when you have the time)
+
+### Tip
+
+Try to use your projection from the first part of the challenge, rather than implement a new projection.
+
+## Answer
+
+{{< spoiler text="click to reveal answer" >}}
+TODO
+{{</ spoiler >}}
+
+
+**[Next challenge](/challenge/find_inactive_players)**
+
+### Spoilers
+
+{{% spoiler text="SPOILER ALERT" %}}
 
 We really urge you to think about this yourself first before reading on, because this spoils the exercise.
 But if you can't find it, or want to check your answer read on.
@@ -32,20 +53,3 @@ To create the lookup we can follow this chain.  A `Game Was Started` has a `game
 As was stated earlier, the events are ordered, so if you have a gameId, you know that the quiz was already published.
 
 {{% / spoiler %}}
-
-## Bonus question
-
-Also provide the total most popular quiz (when you have the time)
-
-### Tip
-
-Try to use your projection from the first part of the challenge, rather than implement a new projection.
-
-## Answer
-
-{{< spoiler text="click to reveal answer" >}}
-TODO
-{{</ spoiler >}}
-
-
-**[Next challenge](/challenge/find_inactive_players)**
