@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-08-17T10:10:46+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/doc/</loc>
     <lastmod>2019-08-17T09:51:06+02:00</lastmod>
   </url>
@@ -88,12 +83,7 @@
   </url>
   
   <url>
-    <loc>/posts/overview/</loc>
-    <lastmod>2019-08-16T19:32:11+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
+    <loc>/</loc>
     <lastmod>2019-08-16T19:32:11+02:00</lastmod>
   </url>
   

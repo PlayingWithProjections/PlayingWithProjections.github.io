@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Playing with Projections</title>
+    <title>Overview on Playing with Projections</title>
     <link>/</link>
-    <description>Recent content on Playing with Projections</description>
+    <description>Recent content in Overview on Playing with Projections</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>By Thomas Coopman - Michel Grootjans</copyright>
-    <lastBuildDate>Sat, 17 Aug 2019 10:10:46 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 19:32:11 +0200</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -164,18 +164,6 @@ Answer Click to reveal answer TODO   Next challenge</description>
 The data The generator will generate 2 files: `
 The event stream contains several types of events. The event stream is a JSON array of events. An event is structured like this:
 { &#39;id&#39;: &#39;a unique id for this event&#39; &#39;type&#39;: &#39;the type of the event&#39;, &#39;timestamp&#39;: &#39;the moment the event happened&#39;, &#39;payload&#39;: { // key-value pairs specific to the event type &#39;key1&#39;: &#39;value1&#39;, &#39;key2&#39;: &#39;value2&#39;; ... } }  All done You can go back to the overview.</description>
-    </item>
-    
-    <item>
-      <title>Overview</title>
-      <link>/posts/overview/</link>
-      <pubDate>Fri, 16 Aug 2019 19:32:11 +0200</pubDate>
-      
-      <guid>/posts/overview/</guid>
-      <description>You can find all the information necessary to complete the workshop Playing with projections here.
-In the top bar you can always find a direct link to this page and other useful pages.
-Before you start 1. Generating data Read this post and come back here when you are done.
-2. Picking a technology Please pick your preferred technology, and follow the readme for that repo. We strongly urge you to pick the language that you know best.</description>
     </item>
     
   </channel>
