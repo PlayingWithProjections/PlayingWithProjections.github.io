@@ -1,7 +1,8 @@
 # How to use
 
-The code is in the `src` branch, the deployment on `master` because github pages only allows master as
-the source for organisations.
+**Only work in the `src` branch!**
+
+used the [documentation](https://gohugo.io/hosting-and-deployment/hosting-on-github/) to publish to github.
 
 ## Dependencies
 
