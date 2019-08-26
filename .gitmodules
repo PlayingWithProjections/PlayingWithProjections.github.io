@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:PlayingWithProjections/PlayingWithProjections.github.io.git
-	branch = master
