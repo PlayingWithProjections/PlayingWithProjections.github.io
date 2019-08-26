@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <div class="post">
+    <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+    <div class="post-meta">
+      {{ with .Params.Author }}<span class="post-author">— {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span>{{ end }}
+      {{ if $.Site.Params.ShowReadingTime }}
+        <span class="post-read-time">— {{ .ReadingTime }} {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span>
+      {{ end }}
+    </div>
+
+    {{ if .Params.tags }}
+      <span class="post-tags">
+        {{ range .Params.tags }}
+          #<a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">{{ . }}</a>&nbsp;
+        {{ end }}
+      </span>
+    {{ end }}
+
+    {{ if .Params.Cover }}
+      {{ if .Params.UseRelativeCover }}
+        <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" class="post-cover" />
+      {{ else }}
+        <img src="{{ .Params.Cover | absURL }}" class="post-cover" />
+      {{ end }}
+    {{ end }}
+
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+
+    {{ partial "comments.html" . }}
+    </div>
+{{ end }}

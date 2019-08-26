@@ -40,8 +40,8 @@ paginate = 20
     [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "overview"
-        name = "Overview"
-        url = "/posts/overview"
+        name = "Home"
+        url = "/"
       [[languages.en.menu.main]]
         identifier = "domain"
         name = "Domain"

@@ -20,10 +20,9 @@ Read [this](/doc/generating_data) post and come back here when you are done.
 Please pick your preferred technology, and follow the readme for that repo. We **strongly urge** you to pick the language that you know best.
 Although you can use this workshop for learning a new language, it's not the goal of the workshop.
 
-- [C# (dotnetcore)](/csharp)
-- [Java](/java)
+- [C# (dotnetcore)](https://github.com/PlayingWithProjections/csharp)
+- [Java](https://github.com/PlayingWithProjections/java)
 - [Javascript](https://github.com/PlayingWithProjections/javascript)
-- [Reason](https://github.com/PlayingWithProjections/reason)
 
 ## You have picked a technology and it is running
 
