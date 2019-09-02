@@ -19,7 +19,7 @@
       
       <guid>/doc/api/</guid>
       <description>As an exercise we have hugely simplfied the API while trying to find the relevant details necessary to implement this workshop.
-The API for every language looks the same. It has an EventStore with one method subscribe. The subscribe method takes two arguments: the streamname and a projection. And a projection is a function that takes an event, does something with it and doesn&amp;rsquo;t return anything.
+The API for every language looks the same. It has an EventStore with one method replay. The replay method takes two arguments: the streamname and a projection. And a projection is a function that takes an event, does something with it and doesn&amp;rsquo;t return anything.
 In pseudo code an example could look like this:</description>
     </item>
     
@@ -33,15 +33,14 @@ In pseudo code an example could look like this:</description>
     </item>
     
     <item>
-      <title>Generating_data</title>
+      <title>Generating data</title>
       <link>/doc/generating_data/</link>
       <pubDate>Fri, 16 Aug 2019 20:16:54 +0200</pubDate>
       
       <guid>/doc/generating_data/</guid>
-      <description>TODO
-The data The generator will generate 2 files: `
-The event stream contains several types of events. The event stream is a JSON array of events. An event is structured like this:
-{ &#39;id&#39;: &#39;a unique id for this event&#39; &#39;type&#39;: &#39;the type of the event&#39;, &#39;timestamp&#39;: &#39;the moment the event happened&#39;, &#39;payload&#39;: { // key-value pairs specific to the event type &#39;key1&#39;: &#39;value1&#39;, &#39;key2&#39;: &#39;value2&#39;; ... } }  All done You can go back to the overview.</description>
+      <description>Download the generator You can download the generator for Windows, Mac or Linux.
+Move the executable to the base folder where you want to put your code as well and run the generator in a terminal. On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.
+The data The generator will generate 2 files: data/basic.json and data/full.json. You&amp;rsquo;re best to write your code and test with the basic file and then, when everything works, run your projection on the big (almost 2GB) full file.</description>
     </item>
     
   </channel>

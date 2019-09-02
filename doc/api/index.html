@@ -7,7 +7,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="As an exercise we have hugely simplfied the API while trying to find the relevant details necessary to implement this workshop.
-The API for every language looks the same. It has an EventStore with one method subscribe. The subscribe method takes two arguments: the streamname and a projection. And a projection is a function that takes an event, does something with it and doesn&amp;rsquo;t return anything.
+The API for every language looks the same. It has an EventStore with one method replay. The replay method takes two arguments: the streamname and a projection. And a projection is a function that takes an event, does something with it and doesn&amp;rsquo;t return anything.
 In pseudo code an example could look like this:"/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
@@ -30,14 +30,14 @@ In pseudo code an example could look like this:"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Eventstore API"/>
 <meta name="twitter:description" content="As an exercise we have hugely simplfied the API while trying to find the relevant details necessary to implement this workshop.
-The API for every language looks the same. It has an EventStore with one method subscribe. The subscribe method takes two arguments: the streamname and a projection. And a projection is a function that takes an event, does something with it and doesn&rsquo;t return anything.
+The API for every language looks the same. It has an EventStore with one method replay. The replay method takes two arguments: the streamname and a projection. And a projection is a function that takes an event, does something with it and doesn&rsquo;t return anything.
 In pseudo code an example could look like this:"/>
 
 
 
 <meta property="og:title" content="Eventstore API" />
 <meta property="og:description" content="As an exercise we have hugely simplfied the API while trying to find the relevant details necessary to implement this workshop.
-The API for every language looks the same. It has an EventStore with one method subscribe. The subscribe method takes two arguments: the streamname and a projection. And a projection is a function that takes an event, does something with it and doesn&rsquo;t return anything.
+The API for every language looks the same. It has an EventStore with one method replay. The replay method takes two arguments: the streamname and a projection. And a projection is a function that takes an event, does something with it and doesn&rsquo;t return anything.
 In pseudo code an example could look like this:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/doc/api/" />
@@ -145,12 +145,12 @@ In pseudo code an example could look like this:" />
     <div class="post-content">
       <p>As an exercise we have hugely simplfied the API while trying to find the relevant details necessary to implement this workshop.</p>
 
-<p>The API for every language looks the same. It has an <code>EventStore</code> with one method <code>subscribe</code>. The <code>subscribe</code> method takes two arguments: the <code>stream</code>name and a <code>projection</code>. And a <code>projection</code> is a function that takes an event, does something with it and doesn&rsquo;t return anything.</p>
+<p>The API for every language looks the same. It has an <code>EventStore</code> with one method <code>replay</code>. The <code>replay</code> method takes two arguments: the <code>stream</code>name and a <code>projection</code>. And a <code>projection</code> is a function that takes an event, does something with it and doesn&rsquo;t return anything.</p>
 
 <p>In pseudo code an example could look like this:</p>
 
 <pre><code>myProjection = (event) =&gt; { // do something with the event };
-EventStore.subscribe(&quot;example&quot;, myProjection);
+EventStore.replay(&quot;example&quot;, myProjection);
 </code></pre>
 
 <p>Each language might have some specific changes because of the language, so make sure you check the code and README of your picked technology.</p>
