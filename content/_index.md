@@ -27,13 +27,12 @@ Although you can use this workshop for learning a new language, it's not the goa
 ## You have picked a technology and it is running
 
 If the client runs with the generated data, you're all set. 
-Verify that you have a directory structure like this:
 
 ```
 playing_with_projections/
 |--- data/
-|    |--- example.json
-|    |--- stream.json
+|    |--- basic.json
+|    |--- full.json
 |--- [preferred technology]/
 |    |--- ...
 ```

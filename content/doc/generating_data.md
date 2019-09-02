@@ -1,14 +1,21 @@
 ---
-title: "Generating_data"
+title: "Generating data"
 date: 2019-08-16T20:16:54+02:00
 draft: false
 ---
 
-TODO
+## Download the generator
+
+You can download the generator for [Windows](/download/windows/generator.exe), [Mac](/download/mac/generator.exe) or [Linux](/download/linux/generator.exe).
+
+Move the executable to the base folder where you want to put your code as well and run the generator
+in a terminal. On both Mac and Windows you might get warnings that the executable is not signed,
+but you can still run it.
 
 ## The data
 
-The generator will generate 2 files: `
+The generator will generate 2 files: `data/basic.json` and `data/full.json`. You're best to write your code and test with the basic file and then, when
+everything works, run your projection on the big (almost 2GB) full file.
 
 The event stream contains several types of events. The event stream is a JSON array of events. An event is structured like this:
 
@@ -28,4 +35,4 @@ The event stream contains several types of events. The event stream is a JSON ar
 
 ## All done
 
-You can go back to the [overview](/posts/overview).
+When you validated that you have both files you can go back to the [overview](/).
