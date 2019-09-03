@@ -161,8 +161,7 @@ Answer Click to reveal answer TODO   Next challenge</description>
       
       <guid>/doc/generating_data/</guid>
       <description>Download the generator You can download the generator for Windows, Mac or Linux.
-Move the executable to the base folder where you want to put your code as well and run the generator in a terminal. On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.
-The data The generator will generate 2 files: data/basic.json and data/full.json. You&amp;rsquo;re best to write your code and test with the basic file and then, when everything works, run your projection on the big (almost 2GB) full file.</description>
+Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.</description>
     </item>
     
   </channel>
