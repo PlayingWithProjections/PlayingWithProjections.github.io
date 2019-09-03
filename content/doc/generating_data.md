@@ -8,8 +8,8 @@ draft: false
 
 You can download the generator for [Windows](/download/windows/generator.exe), [Mac](/download/mac/generator.exe) or [Linux](/download/linux/generator.exe).
 
-Move the executable to the base folder where you want to put your code as well and run the generator
-in a terminal. On both Mac and Windows you might get warnings that the executable is not signed,
+Move the executable to the base folder where you want to put your code as well and **run the generator
+in a terminal** (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed,
 but you can still run it.
 
 ## The data
