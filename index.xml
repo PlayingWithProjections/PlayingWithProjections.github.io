@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>Types of players</title>
+      <link>/challenge/types_of_players/</link>
+      <pubDate>Mon, 09 Sep 2019 14:46:36 +0200</pubDate>
+      
+      <guid>/challenge/types_of_players/</guid>
+      <description> We think we have many different kinds of players in the game. Can you try to find and cluster these different kind of players.
+Based on what criteria would you cluster players?
+Answer click to reveal answer This is an open question without a real answer, come to us and show us what you got.   </description>
+    </item>
+    
+    <item>
       <title>Overview of the challenges</title>
       <link>/challenge/list/</link>
       <pubDate>Sat, 17 Aug 2019 10:10:46 +0200</pubDate>
@@ -73,10 +84,9 @@ Bonus Ofcourse, we want to remove the bots from the winners.</description>
       <pubDate>Sat, 17 Aug 2019 09:46:26 +0200</pubDate>
       
       <guid>/challenge/look_for_bots/</guid>
-      <description> We have the feeling that we might have cheaters in our system. So we would like you to find the cheaters. First it might be a good idea to think about how we might detect bots.
+      <description>We have the feeling that we might have cheaters in our system. So we would like you to find the cheaters. First it might be a good idea to think about how we might detect bots/cheaters (what would an incentive be for a cheater?).
 When you have some ideas, try to write a projection to detect the bots.
-Answer click to reveal answer TODO   Spoilers SPOILER ALERT Here are some ways to detect bots:
- they always answer correctly they answer super fast they play way too many games    </description>
+Answer click to reveal answer TODO   Spoilers SPOILER ALERT Here are some ways to detect bots:</description>
     </item>
     
     <item>
@@ -106,10 +116,10 @@ Answer click to reveal answer TODO   </description>
       <pubDate>Sat, 17 Aug 2019 09:45:38 +0200</pubDate>
       
       <guid>/challenge/find_most_popular_quizzes/</guid>
-      <description>The most popular quiz is the quiz that has most played games. We are looking for the top 10 of the most popular quizzes per month. The answer must contain the name and the id of the quiz.
+      <description>The most popular quiz is the quiz that has most played games. What are the name and id of the 10 most popular quizzes?
 Domain question What does the most played quizzes really mean? (see Spoilers)
-Bonus question Also provide the total most popular quiz (when you have the time)
-Tip Try to use your projection from the first part of the challenge, rather than implement a new projection.</description>
+Bonus question (This is a bonus question, so feel free to skip it if you want to go one to a different question.)
+Can you also provide us with a top 10 of the most popular quizzes per month.</description>
     </item>
     
     <item>
