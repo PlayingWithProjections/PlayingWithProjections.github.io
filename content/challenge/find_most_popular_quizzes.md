@@ -4,22 +4,18 @@ date: 2019-08-17T09:45:38+02:00
 draft: false
 ---
 
-The most popular quiz is the quiz that has most played games.
-We are looking for the top 10 of the most popular quizzes per month. The answer must contain the name and the id of the quiz.
+The most popular quiz is the quiz that has most played games. What are the name and id of the 10 most popular quizzes?
 
 ### Domain question
 
 What does the most played quizzes really mean? (see Spoilers)
 
-
-
 ## Bonus question
 
-Also provide the total most popular quiz (when you have the time)
+(This is a bonus question, so feel free to skip it if you want to go one to a different question.)
 
-### Tip
-
-Try to use your projection from the first part of the challenge, rather than implement a new projection.
+Can you also provide us with a top 10 of the most popular quizzes per month.
+How much work do you have to change your projection to give this answer.
 
 ## Answer
 
