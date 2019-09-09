@@ -18,9 +18,9 @@
       <pubDate>Mon, 09 Sep 2019 14:46:36 +0200</pubDate>
       
       <guid>/challenge/types_of_players/</guid>
-      <description> We think we have many different kinds of players in the game. Can you try to find and cluster these different kind of players.
-Based on what criteria would you cluster players?
-Answer click to reveal answer This is an open question without a real answer, come to us and show us what you got.   </description>
+      <description>This is an open question without a fixed answer.
+We are thinking about starting a targetted marketing campaign to our users. The problem is that we don&amp;rsquo;t actually know what kind of players we have. Can you think of what kind of different players we could have? Can you find different clusters of players?
+Answer click to reveal answer This is an open question without a real answer, come to us and show us what you got.</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@ Answer click to reveal answer This is an open question without a real answer, co
       <guid>/challenge/list/</guid>
       <description>We recommend you to start with the basic challenges and do them ordered. Once you feel comfortable doing those you can pick one of the advanced challenges.
 Basic The basic challenges should be done in order.
- Count the number of events Count the number of registered players Count the number of players registered per month Find the most popular quizzes Look for inactive players  Advanced Not all the advanced challenges have to be done in order.</description>
+ Count the number of events Count the number of registered players Count the number of players registered per month Look for inactive players  Advanced Not all the advanced challenges have to be done in order.</description>
     </item>
     
     <item>
@@ -107,8 +107,29 @@ Answer click to reveal answer TODO   </description>
       <guid>/challenge/find_most_popular_quizzes/</guid>
       <description>The most popular quiz is the quiz that has most played games. What are the name and id of the 10 most popular quizzes?
 Domain question What does the most played quizzes really mean? (see Spoilers)
-Bonus question (This is a bonus question, so feel free to skip it if you want to go one to a different question.)
-Can you also provide us with a top 10 of the most popular quizzes per month.</description>
+Answer click to reveal answer TODO   Part 2
+Spoilers SPOILER ALERT We really urge you to think about this yourself first before reading on, because this spoils the exercise. But if you can&amp;rsquo;t find it, or want to check your answer read on.</description>
+    </item>
+    
+    <item>
+      <title>Find the most popular quizzes (part 2)</title>
+      <link>/challenge/find_most_popular_quizzes_2/</link>
+      <pubDate>Sat, 17 Aug 2019 09:45:38 +0200</pubDate>
+      
+      <guid>/challenge/find_most_popular_quizzes_2/</guid>
+      <description>Now that we know the overal most popular quizzes, we would also like to know the most popular quizzes per month. Can you provide us with a top 10 of the most popular quizzes per month. Again, we want the name and id of the quiz.
+Can you reuse structures of your previous solution or do you create a new solution from scratch?
+Part 3</description>
+    </item>
+    
+    <item>
+      <title>Find the most popular quizzes (part 3)</title>
+      <link>/challenge/find_most_popular_quizzes_3/</link>
+      <pubDate>Sat, 17 Aug 2019 09:45:38 +0200</pubDate>
+      
+      <guid>/challenge/find_most_popular_quizzes_3/</guid>
+      <description>In the 2 previous parts, you answered what the most popular quiz is by finding out how many times the quiz was played. While this is interesting, we&amp;rsquo;re not sure if this is the best way to evaluate popular quizzes. An other metric could be to count how many players joined a game.
+Now we ask you to find the most popular quizzes, not by how many times they have been played, but by how many players joined.</description>
     </item>
     
     <item>
