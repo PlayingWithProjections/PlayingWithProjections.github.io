@@ -20,6 +20,8 @@ The basic challenges should be done in order.
 Not all the advanced challenges have to be done in order. The first advanced ([Find the most popular quizzes](/challenge/find_most_popular_quizzes)) is a 
 good starter, but feel free to read the challenges and pick the one you like most.
 
+*Remember: we made it easy for you, the stream of events is ordered and contains no duplicates*
+
 1. [Find the most popular quizzes](/challenge/find_most_popular_quizzes)
 1. [Find the most popular quizzes (part 2)](/challenge/find_most_popular_quizzes_2)
 1. [Find the most popular quizzes (part 3)](/challenge/find_most_popular_quizzes_3)
