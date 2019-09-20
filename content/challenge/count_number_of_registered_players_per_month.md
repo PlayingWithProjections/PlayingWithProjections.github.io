@@ -6,6 +6,8 @@ draft: false
 
 This challenge builds on top of the previous one. You should be able to group player registrations per month. The expected output looks like this:
 
+* 2019-8: 15
+* 2019-9: 42
 
 ### Tip
 
