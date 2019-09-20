@@ -5,10 +5,3 @@ draft: false
 ---
 
 **The event stream doesn't contain a marketing campaign yet, so go pick a different challenge.**
-
-## Answer
-
-{{< spoiler text="click to reveal answer" >}}
-TODO
-{{</ spoiler >}}
-

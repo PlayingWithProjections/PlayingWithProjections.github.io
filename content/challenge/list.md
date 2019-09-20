@@ -6,6 +6,8 @@ draft: false
 
 We recommend you to start with the basic challenges and do them ordered. Once you feel comfortable doing those you can pick one of the advanced challenges.
 
+Some, but not all, of the challenges will have answers, so that you can verify your answers with these.
+
 ## Basic
 
 The basic challenges should be done in order. 

@@ -15,7 +15,7 @@ but you can still run it.
 ## The data
 
 The generator will generate 2 files: `data/basic.json` and `data/full.json`. You're best to write your code and test with the basic file and then, when
-everything works, run your projection on the big (almost 2GB) full file.
+everything works, run your projection on the big (almost 1GB) full file.
 
 The event stream contains several types of events. The event stream is a JSON array of events. An event is structured like this:
 

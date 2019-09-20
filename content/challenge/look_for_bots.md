@@ -9,12 +9,6 @@ First it might be a good idea to think about how we might detect bots/cheaters (
 
 When you have some ideas, try to write a projection to detect the bots.
 
-## Answer
-
-{{< spoiler text="click to reveal answer" >}}
-TODO
-{{</ spoiler >}}
-
 ### Spoilers
 
 {{% spoiler text="SPOILER ALERT" %}}

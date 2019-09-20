@@ -10,12 +10,6 @@ The most popular quiz is the quiz that has most played games. What are the name 
 
 What does the most played quizzes really mean? (see Spoilers)
 
-## Answer
-
-{{< spoiler text="click to reveal answer" >}}
-TODO
-{{</ spoiler >}}
-
 **[Part 2](/challenge/find_most_popular_quizzes_2)**
 
 ### Spoilers

@@ -16,10 +16,3 @@ Ofcourse, we want to remove the [bots](/challenge/look_for_bots) from the winner
 ### Tip
 
 Instead of calculating the bots again, you could pass a list of the bots found.
-
-## Answer
-
-{{< spoiler text="click to reveal answer" >}}
-TODO
-{{</ spoiler >}}
-

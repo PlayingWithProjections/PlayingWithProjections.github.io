@@ -9,9 +9,3 @@ An inactive player is a player that has either played less than 1 game in 1 mont
 ### Tip
 
 If you feel like you know how to do the basic projections, it's ok to skip this challenge and go on to the [advanced challenges](/challenge/list).
-
-## Answer
-
-{{< spoiler text="click to reveal answer" >}}
-TODO
-{{</ spoiler >}}
