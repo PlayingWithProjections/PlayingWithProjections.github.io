@@ -15,7 +15,6 @@ The basic challenges should be done in order.
 1. [Count the number of events](/challenge/count_number_of_events)
 1. [Count the number of registered players](/challenge/count_number_of_registered_players)
 1. [Count the number of players registered per month](/challenge/count_number_of_registered_players_per_month)
-1. [Look for inactive players](/challenge/find_inactive_players)
 
 ## Advanced
 
