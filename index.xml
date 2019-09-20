@@ -30,6 +30,7 @@ Answer click to reveal answer This is an open question without a real answer, co
       
       <guid>/challenge/list/</guid>
       <description>We recommend you to start with the basic challenges and do them ordered. Once you feel comfortable doing those you can pick one of the advanced challenges.
+Some, but not all, of the challenges will have answers, so that you can verify your answers with these.
 Basic The basic challenges should be done in order.
  Count the number of events Count the number of registered players Count the number of players registered per month Look for inactive players  Advanced Not all the advanced challenges have to be done in order.</description>
     </item>
@@ -51,9 +52,8 @@ In pseudo code an example could look like this:</description>
       <pubDate>Sat, 17 Aug 2019 09:46:44 +0200</pubDate>
       
       <guid>/challenge/top_player_of_the_month/</guid>
-      <description> player who won the most different quizzes (not games!) and is not a bot.
-Domain If a player plays a quiz 3 times in a mont and wins each time, the quiz is only counted once.
-Answer click to reveal answer TODO   </description>
+      <description>This is the player who won the most different quizzes (not games!) and is not a bot.
+Domain If a player plays a quiz 3 times in a mont and wins each time, the quiz is only counted once.</description>
     </item>
     
     <item>
@@ -62,9 +62,8 @@ Answer click to reveal answer TODO   </description>
       <pubDate>Sat, 17 Aug 2019 09:46:36 +0200</pubDate>
       
       <guid>/challenge/who_has_the_quiz_high_score/</guid>
-      <description> This answer depends on Look for bots and Who won this game
-The high score is the maximum score a quiz over all played games of that quiz. But, only the score of the first time a player played this quiz counts towards the high score. So when a player gets a higher score on a second play, this score doesn&amp;rsquo;t count.
-Answer click to reveal answer TODO   </description>
+      <description>This answer depends on Look for bots and Who won this game
+The high score of a quiz is equal to the maximum score a player got on that quiz over all played games. Remember that the maximum score is only counted for players who play the quiz for the first time. So when a player gets a higher score on a second play, this score doesn&amp;rsquo;t count.</description>
     </item>
     
     <item>
@@ -84,9 +83,10 @@ Bonus Ofcourse, we want to remove the bots from the winners.</description>
       <pubDate>Sat, 17 Aug 2019 09:46:26 +0200</pubDate>
       
       <guid>/challenge/look_for_bots/</guid>
-      <description>We have the feeling that we might have cheaters in our system. So we would like you to find the cheaters. First it might be a good idea to think about how we might detect bots/cheaters (what would an incentive be for a cheater?).
+      <description> We have the feeling that we might have cheaters in our system. So we would like you to find the cheaters. First it might be a good idea to think about how we might detect bots/cheaters (what would an incentive be for a cheater?).
 When you have some ideas, try to write a projection to detect the bots.
-Answer click to reveal answer TODO   Spoilers SPOILER ALERT Here are some ways to detect bots:</description>
+Spoilers SPOILER ALERT Here are some ways to detect bots:
+ they always answer correctly they answer super fast they play too many games    </description>
     </item>
     
     <item>
@@ -95,8 +95,7 @@ Answer click to reveal answer TODO   Spoilers SPOILER ALERT Here are some ways t
       <pubDate>Sat, 17 Aug 2019 09:46:17 +0200</pubDate>
       
       <guid>/challenge/verify_marketing_campaign/</guid>
-      <description> The event stream doesn&amp;rsquo;t contain a marketing campaign yet, so go pick a different challenge.
-Answer click to reveal answer TODO   </description>
+      <description>The event stream doesn&amp;rsquo;t contain a marketing campaign yet, so go pick a different challenge.</description>
     </item>
     
     <item>
@@ -105,9 +104,8 @@ Answer click to reveal answer TODO   </description>
       <pubDate>Sat, 17 Aug 2019 09:46:05 +0200</pubDate>
       
       <guid>/challenge/find_inactive_players/</guid>
-      <description> An inactive player is a player that has either played less than 1 game in 1 month, or has created less than 1 quiz in 1 month for a given month.
-Tip If you feel like you know how to do the basic projections, it&amp;rsquo;s ok to skip this challenge and go on to the advanced challenges.
-Answer click to reveal answer TODO   </description>
+      <description>An inactive player is a player that has either played less than 1 game in 1 month, or has created less than 1 quiz in 1 month for a given month.
+Tip If you feel like you know how to do the basic projections, it&amp;rsquo;s ok to skip this challenge and go on to the advanced challenges.</description>
     </item>
     
     <item>
@@ -118,7 +116,7 @@ Answer click to reveal answer TODO   </description>
       <guid>/challenge/find_most_popular_quizzes/</guid>
       <description>The most popular quiz is the quiz that has most played games. What are the name and id of the 10 most popular quizzes?
 Domain question What does the most played quizzes really mean? (see Spoilers)
-Answer click to reveal answer TODO   Part 2
+Part 2
 Spoilers SPOILER ALERT We really urge you to think about this yourself first before reading on, because this spoils the exercise. But if you can&amp;rsquo;t find it, or want to check your answer read on.</description>
     </item>
     
@@ -150,9 +148,8 @@ Now we ask you to find the most popular quizzes, not by how many times they have
       
       <guid>/challenge/count_number_of_registered_players_per_month/</guid>
       <description>This challenge builds on top of the previous one. You should be able to group player registrations per month. The expected output looks like this:
-TODO
 Tip The events are ordered on time, so you should not do any ordering yourself.
-Answer click to reveal answer TODO   Next challenge</description>
+Answer click to reveal answer Basic  2019&amp;frasl;8: 29 2019&amp;frasl;9: 24  Full  2018&amp;frasl;5: 17 2018&amp;frasl;6: 43 2018&amp;frasl;7: 49 2018&amp;frasl;8: 58 2018&amp;frasl;9: 123 2018&amp;frasl;1: 115 2018&amp;frasl;1: 146 2018&amp;frasl;1: 176 2019&amp;frasl;1: 134 2019&amp;frasl;2: 95 2019&amp;frasl;3: 91 2019&amp;frasl;4: 58 2019&amp;frasl;5: 110 2019&amp;frasl;6: 121 2019&amp;frasl;7: 118 2019&amp;frasl;8: 73    Next challenge</description>
     </item>
     
     <item>
@@ -162,7 +159,7 @@ Answer click to reveal answer TODO   Next challenge</description>
       
       <guid>/challenge/count_number_of_registered_players/</guid>
       <description>This should also be self-explanatory. We&amp;rsquo;d like to know how many players have registered in total.
-Answer click to reveal answer TODO   Next challenge</description>
+Answer click to reveal answer  Basic: 53 Full: 1527    Next challenge</description>
     </item>
     
     <item>
@@ -173,7 +170,7 @@ Answer click to reveal answer TODO   Next challenge</description>
       <guid>/challenge/count_number_of_events/</guid>
       <description>This should be self-explanatory. Most repository technologies start with this example implemented.
 Make it run, then validate your answer.
-Answer Click to reveal answer TODO   Next challenge</description>
+Answer Click to reveal answer  Basic: 13167 Full: 3427221    Next challenge</description>
     </item>
     
     <item>
