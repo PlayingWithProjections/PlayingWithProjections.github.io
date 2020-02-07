@@ -43,6 +43,6 @@ The events are ordered on time, so you should not do any ordering yourself.
 
 {{</ spoiler >}}
 
-**[Next challenge](/challenge/find_inactive_players)**
+**[Advanced challenges](/challenge/list)**
 
 
