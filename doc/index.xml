@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Playing with Projections</title>
@@ -39,7 +39,8 @@ In pseudo code an example could look like this:</description>
       
       <guid>/doc/generating_data/</guid>
       <description>Download the generator You can download the generator for Windows, Mac or Linux.
-Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.</description>
+Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.
+The data The generator will generate 2 files: data/basic.</description>
     </item>
     
   </channel>

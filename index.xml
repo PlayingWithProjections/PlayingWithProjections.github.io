@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Overview on Playing with Projections</title>
@@ -83,10 +83,9 @@ Bonus Ofcourse, we want to remove the bots from the winners.</description>
       <pubDate>Sat, 17 Aug 2019 09:46:26 +0200</pubDate>
       
       <guid>/challenge/look_for_bots/</guid>
-      <description> We have the feeling that we might have cheaters in our system. So we would like you to find the cheaters. First it might be a good idea to think about how we might detect bots/cheaters (what would an incentive be for a cheater?).
+      <description>We have the feeling that we might have cheaters in our system. So we would like you to find the cheaters. First it might be a good idea to think about how we might detect bots/cheaters (what would an incentive be for a cheater?).
 When you have some ideas, try to write a projection to detect the bots.
-Spoilers SPOILER ALERT Here are some ways to detect bots:
- they always answer correctly they answer super fast they play too many games    </description>
+Spoilers </description>
     </item>
     
     <item>
@@ -117,7 +116,7 @@ Tip If you feel like you know how to do the basic projections, it&amp;rsquo;s ok
       <description>The most popular quiz is the quiz that has most played games. What are the name and id of the 10 most popular quizzes?
 Domain question What does the most played quizzes really mean? (see Spoilers)
 Part 2
-Spoilers SPOILER ALERT We really urge you to think about this yourself first before reading on, because this spoils the exercise. But if you can&amp;rsquo;t find it, or want to check your answer read on.</description>
+Spoilers &amp;lt;/div&amp;gt;  </description>
     </item>
     
     <item>
@@ -149,7 +148,7 @@ Now we ask you to find the most popular quizzes, not by how many times they have
       <guid>/challenge/count_number_of_registered_players_per_month/</guid>
       <description>This challenge builds on top of the previous one. You should be able to group player registrations per month. The expected output looks like this:
  2019-8: 15 2019-9: 42  Tip The events are ordered on time, so you should not do any ordering yourself.
-Answer click to reveal answer Basic  2019-8: 29 2019-9: 24  Full  2018-5: 17 2018-6: 43 2018-7: 49 2018-8: 58 2018-9: 123 2018-10: 115 2018-11: 146 2018-12: 176 2019-1: 134 2019-2: 95 2019-3: 91 2019-4: 58 2019-5: 110 2019-6: 121 2019-7: 118 2019-8: 73    Next challenge</description>
+Answer click to reveal answer Basic  2019-8: 29 2019-9: 24  Full  2018-5: 17 2018-6: 43 2018-7: 49 2018-8: 58 2018-9: 123 2018-10: 115 2018-11: 146 2018-12: 176 2019-1: 134 2019-2: 95 2019-3: 91 2019-4: 58 2019-5: 110 2019-6: 121 2019-7: 118 2019-8: 73    Advanced challenges</description>
     </item>
     
     <item>
@@ -189,7 +188,8 @@ Answer Click to reveal answer  Basic: 13167 Full: 3427221    Next challenge</des
       
       <guid>/doc/generating_data/</guid>
       <description>Download the generator You can download the generator for Windows, Mac or Linux.
-Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.</description>
+Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.
+The data The generator will generate 2 files: data/basic.</description>
     </item>
     
   </channel>
