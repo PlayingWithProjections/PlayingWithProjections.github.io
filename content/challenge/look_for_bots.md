@@ -11,7 +11,7 @@ When you have some ideas, try to write a projection to detect the bots.
 
 ### Spoilers
 
-{{% spoiler text="SPOILER ALERT" %}}
+{{< spoiler text="SPOILER ALERT" >}}
 
 Here are some ways to detect bots:
 
@@ -19,5 +19,5 @@ Here are some ways to detect bots:
 - they answer super fast
 - they play too many games
 
-{{% / spoiler %}}
+{{< / spoiler >}}
 

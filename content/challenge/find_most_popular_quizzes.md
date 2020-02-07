@@ -14,7 +14,7 @@ What does the most played quizzes really mean? (see Spoilers)
 
 ### Spoilers
 
-{{% spoiler text="SPOILER ALERT" %}}
+{{< spoiler text="SPOILER ALERT" >}}
 
 We really urge you to think about this yourself first before reading on, because this spoils the exercise.
 But if you can't find it, or want to check your answer read on.
@@ -34,4 +34,4 @@ To create the lookup we can follow this chain.  A `Game Was Started` has a `game
 
 As was stated earlier, the events are ordered, so if you have a gameId, you know that the quiz was already published.
 
-{{% / spoiler %}}
+{{< / spoiler >}}
