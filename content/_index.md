@@ -24,6 +24,7 @@ Although you can use this workshop for learning a new language, it's not the goa
 - [Java](https://github.com/PlayingWithProjections/java)
 - [Javascript](https://github.com/PlayingWithProjections/javascript)
 - [F# (dotnetcore)](https://github.com/PlayingWithProjections/fsharp)
+- [ReasonML - native](https://github.com/PlayingWithProjections/reason)
 
 ## You have picked a technology and it is running
 
