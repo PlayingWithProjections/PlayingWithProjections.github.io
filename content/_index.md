@@ -26,6 +26,13 @@ Although you can use this workshop for learning a new language, it's not the goa
 - [F# (dotnetcore)](https://github.com/PlayingWithProjections/fsharp)
 - [ReasonML - native](https://github.com/PlayingWithProjections/reason)
 
+### Unsupported/untested
+
+These repositories probably work as well, but they are less tested.
+
+- [PHP](https://github.com/mathiasverraes/playingwithprojections-php)
+- [Haskell](https://github.com/mathiasverraes/playingwithprojections-haskell)
+
 ## You have picked a technology and it is running
 
 If the client runs with the generated data, you're all set. 
