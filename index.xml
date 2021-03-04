@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>By Thomas Coopman - Michel Grootjans</copyright>
-    <lastBuildDate>Fri, 16 Aug 2019 19:32:11 +0200</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 16 Aug 2019 19:32:11 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Types of players</title>
       <link>/challenge/types_of_players/</link>
