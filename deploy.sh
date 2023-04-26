@@ -5,6 +5,12 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
+
+# Make sure the submodule is correct
+rm -rf public
+git submodule update --remote
+cd public; git checkout master; cd ..
+
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
