@@ -28,7 +28,7 @@ Answer click to reveal answer This is an open question without a real answer, co
       <description>We recommend you to start with the basic challenges and do them ordered. Once you feel comfortable doing those you can pick one of the advanced challenges.
 Some, but not all, of the challenges will have answers, so that you can verify your answers with these.
 Basic The basic challenges should be done in order.
- Count the number of events Count the number of registered players Count the number of players registered per month  Advanced Not all the advanced challenges have to be done in order.</description>
+Count the number of events Count the number of registered players Count the number of players registered per month Advanced Not all the advanced challenges have to be done in order.</description>
     </item>
     
     <item>
@@ -37,8 +37,9 @@ Basic The basic challenges should be done in order.
       <pubDate>Sat, 17 Aug 2019 09:46:44 +0200</pubDate>
       
       <guid>/challenge/top_player_of_the_month/</guid>
-      <description>This is the player who won the most different quizzes (not games!) and is not a bot.
-Domain If a player plays a quiz 3 times in a mont and wins each time, the quiz is only counted once.</description>
+      <description>This answer depends on Who won this game
+Find the player who won the most different quizzes per month, not games.
+Domain If a player plays a quiz 3 times in a month and wins each time, the quiz is only counted once.</description>
     </item>
     
     <item>
@@ -47,8 +48,9 @@ Domain If a player plays a quiz 3 times in a mont and wins each time, the quiz i
       <pubDate>Sat, 17 Aug 2019 09:46:36 +0200</pubDate>
       
       <guid>/challenge/who_has_the_quiz_high_score/</guid>
-      <description>This answer depends on Look for bots and Who won this game
-The high score of a quiz is equal to the maximum score a player got on that quiz over all played games. Remember that the maximum score is only counted for players who play the quiz for the first time. So when a player gets a higher score on a second play, this score doesn&amp;rsquo;t count.</description>
+      <description>This answer depends on Who won this game
+The high score of a quiz is equal to the maximum score a player got on that quiz over all played games. The maximum score is only counted for players who play the quiz for the first time. So when a player gets a higher score on a second play, this score doesn&amp;rsquo;t count.
+Bonus We want to remove the bots from the winners.</description>
     </item>
     
     <item>
@@ -59,7 +61,7 @@ The high score of a quiz is equal to the maximum score a player got on that quiz
       <guid>/challenge/who_won_the_game/</guid>
       <description>The winner of a game is the player with the most points in total for the game. Points are scored per question. To calculate points for a question, calculate 1000 * ( 1 - ( [response time] / 240 )) and round this number down.
 In case that multiple players have the same amount of points, there are multiple winners.
-Bonus Ofcourse, we want to remove the bots from the winners.</description>
+Bonus We want to remove the bots from the winners. So these should be filtered out.</description>
     </item>
     
     <item>
@@ -71,7 +73,7 @@ Bonus Ofcourse, we want to remove the bots from the winners.</description>
       <description>We have the feeling that we might have cheaters in our system. So we would like you to find the cheaters. First it might be a good idea to think about how we might detect bots/cheaters (what would an incentive be for a cheater?).
 When you have some ideas, try to write a projection to detect the bots.
 Spoilers SPOILER ALERT Here are some ways to detect bots:
- they always answer correctly they answer super fast they play too many games    </description>
+they always answer correctly they answer super fast they play too many games </description>
     </item>
     
     <item>
@@ -133,8 +135,8 @@ Now we ask you to find the most popular quizzes, not by how many times they have
       
       <guid>/challenge/count_number_of_registered_players_per_month/</guid>
       <description>This challenge builds on top of the previous one. You should be able to group player registrations per month. The expected output looks like this:
- 2019-8: 15 2019-9: 42  Tip The events are ordered on time, so you should not do any ordering yourself.
-Answer click to reveal answer Basic  2019-8: 29 2019-9: 24  Full  2018-5: 17 2018-6: 43 2018-7: 49 2018-8: 58 2018-9: 123 2018-10: 115 2018-11: 146 2018-12: 176 2019-1: 134 2019-2: 95 2019-3: 91 2019-4: 58 2019-5: 110 2019-6: 121 2019-7: 118 2019-8: 73    Advanced challenges</description>
+2019-8: 15 2019-9: 42 Tip The events are ordered on time, so you should not do any ordering yourself.
+Answer click to reveal answer Basic 2019-8: 29 2019-9: 24 Full 2018-5: 17 2018-6: 43 2018-7: 49 2018-8: 58 2018-9: 123 2018-10: 115 2018-11: 146 2018-12: 176 2019-1: 134 2019-2: 95 2019-3: 91 2019-4: 58 2019-5: 110 2019-6: 121 2019-7: 118 2019-8: 73 Advanced challenges</description>
     </item>
     
     <item>
@@ -144,7 +146,7 @@ Answer click to reveal answer Basic  2019-8: 29 2019-9: 24  Full  2018-5: 17 201
       
       <guid>/challenge/count_number_of_registered_players/</guid>
       <description>This should also be self-explanatory. We&amp;rsquo;d like to know how many players have registered in total.
-Answer click to reveal answer  Basic: 53 Full: 1527    Next challenge</description>
+Answer click to reveal answer Basic: 53 Full: 1527 Next challenge</description>
     </item>
     
     <item>
@@ -155,7 +157,7 @@ Answer click to reveal answer  Basic: 53 Full: 1527    Next challenge</descripti
       <guid>/challenge/count_number_of_events/</guid>
       <description>This should be self-explanatory. Most repository technologies start with this example implemented.
 Make it run, then validate your answer.
-Answer Click to reveal answer  Basic: 13167 Full: 3427221    Next challenge</description>
+Answer Click to reveal answer Basic: 13167 Full: 3427221 Next challenge</description>
     </item>
     
   </channel>

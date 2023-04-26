@@ -41,9 +41,8 @@ The API for every language looks the same. It has an EventStore with one method 
 In pseudo code an example could look like this:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/doc/api/" /><meta property="article:section" content="doc" />
-<meta property="article:published_time" content="2019-08-17T09:51:06&#43;02:00" />
-<meta property="article:modified_time" content="2019-08-17T09:51:06&#43;02:00" /><meta property="og:site_name" content="Playing with Projections" />
-
+<meta property="article:published_time" content="2019-08-17T09:51:06+02:00" />
+<meta property="article:modified_time" content="2019-08-17T09:51:06+02:00" /><meta property="og:site_name" content="Playing with Projections" />
 
 
 
@@ -147,8 +146,8 @@ In pseudo code an example could look like this:" />
       <p>As an exercise we have hugely simplfied the API while trying to find the relevant details necessary to implement this workshop.</p>
 <p>The API for every language looks the same. It has an <code>EventStore</code> with one method <code>replay</code>. The <code>replay</code> method takes two arguments: the <code>stream</code>name and a <code>projection</code>. And a <code>projection</code> is a function that takes an event, does something with it and doesn&rsquo;t return anything.</p>
 <p>In pseudo code an example could look like this:</p>
-<pre><code>myProjection = (event) =&gt; { // do something with the event };
-EventStore.replay(&quot;example&quot;, myProjection);
+<pre tabindex="0"><code>myProjection = (event) =&gt; { // do something with the event };
+EventStore.replay(&#34;example&#34;, myProjection);
 </code></pre><p>Each language might have some specific changes because of the language, so make sure you check the code and README of your picked technology.</p>
 
     </div>

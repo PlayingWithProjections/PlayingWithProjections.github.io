@@ -34,9 +34,10 @@ In pseudo code an example could look like this:</description>
       <pubDate>Fri, 16 Aug 2019 20:16:54 +0200</pubDate>
       
       <guid>/doc/generating_data/</guid>
-      <description>Download the generator You can download the generator for Windows, Mac or Linux.
-Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.
-The data The generator will generate 2 files: data/basic.</description>
+      <description>Geting the data to generate projections To generate projections, you need a list of events. The events in this workshop will be provided as files.
+You can get these files by downloading them, which will consume network bandwidth, or by generating them, which will consumer CPU power.
+Downloading the events Download these two files into a new subdirectory data of the directory you created earlier:
+basic.json: this is a small file populated with a bit more than 10000 events.</description>
     </item>
     
   </channel>

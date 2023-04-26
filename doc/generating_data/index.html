@@ -6,9 +6,10 @@
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Download the generator You can download the generator for Windows, Mac or Linux.
-Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.
-The data The generator will generate 2 files: data/basic."/>
+<meta name="description" content="Geting the data to generate projections To generate projections, you need a list of events. The events in this workshop will be provided as files.
+You can get these files by downloading them, which will consume network bandwidth, or by generating them, which will consumer CPU power.
+Downloading the events Download these two files into a new subdirectory data of the directory you created earlier:
+basic.json: this is a small file populated with a bit more than 10000 events."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="/doc/generating_data/" />
@@ -29,21 +30,22 @@ The data The generator will generate 2 files: data/basic."/>
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Generating data"/>
-<meta name="twitter:description" content="Download the generator You can download the generator for Windows, Mac or Linux.
-Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.
-The data The generator will generate 2 files: data/basic."/>
+<meta name="twitter:description" content="Geting the data to generate projections To generate projections, you need a list of events. The events in this workshop will be provided as files.
+You can get these files by downloading them, which will consume network bandwidth, or by generating them, which will consumer CPU power.
+Downloading the events Download these two files into a new subdirectory data of the directory you created earlier:
+basic.json: this is a small file populated with a bit more than 10000 events."/>
 
 
 
 <meta property="og:title" content="Generating data" />
-<meta property="og:description" content="Download the generator You can download the generator for Windows, Mac or Linux.
-Move the executable to the base folder where you want to put your code as well and run the generator in a terminal (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed, but you can still run it.
-The data The generator will generate 2 files: data/basic." />
+<meta property="og:description" content="Geting the data to generate projections To generate projections, you need a list of events. The events in this workshop will be provided as files.
+You can get these files by downloading them, which will consume network bandwidth, or by generating them, which will consumer CPU power.
+Downloading the events Download these two files into a new subdirectory data of the directory you created earlier:
+basic.json: this is a small file populated with a bit more than 10000 events." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/doc/generating_data/" /><meta property="article:section" content="doc" />
-<meta property="article:published_time" content="2019-08-16T20:16:54&#43;02:00" />
-<meta property="article:modified_time" content="2019-08-16T20:16:54&#43;02:00" /><meta property="og:site_name" content="Playing with Projections" />
-
+<meta property="article:published_time" content="2019-08-16T20:16:54+02:00" />
+<meta property="article:modified_time" content="2019-08-16T20:16:54+02:00" /><meta property="og:site_name" content="Playing with Projections" />
 
 
 
@@ -144,7 +146,16 @@ The data The generator will generate 2 files: data/basic." />
     
 
     <div class="post-content">
-      <h2 id="download-the-generator">Download the generator</h2>
+      <h1 id="geting-the-data-to-generate-projections">Geting the data to generate projections</h1>
+<p>To generate projections, you need a list of events. The events in this workshop will be provided as files.</p>
+<p>You can get these files by downloading them, which will consume network bandwidth, or by generating them, which will consumer CPU power.</p>
+<h2 id="downloading-the-events">Downloading the events</h2>
+<p>Download these two files into a new subdirectory <code>data</code> of the directory you created earlier:</p>
+<ul>
+<li>basic.json: this is a small file populated with a bit more than 10000 events. You can find it [here](<a href="https://playingwithprojections.s3.eu-west-1.amazonaws.com/basic.json">https://playingwithprojections.s3.eu-west-1.amazonaws.com/basic.json</a>.</li>
+<li>full.json: this is a big file (918.3 MB). Don&rsquo;t open it in your editor or in your browser! It contains more than 3 million events. <a href="https://playingwithprojections.s3.eu-west-1.amazonaws.com/full.json">Download this link, don&rsquo;t open it</a>.</li>
+</ul>
+<h2 id="generating-the-events">Generating the events</h2>
 <p>You can download the generator for <a href="/download/windows/generator.exe">Windows</a>, <a href="/download/mac/generator.exe">Mac</a> or <a href="/download/linux/generator.exe">Linux</a>.</p>
 <p>Move the executable to the base folder where you want to put your code as well and <strong>run the generator
 in a terminal</strong> (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed,
@@ -153,18 +164,18 @@ but you can still run it.</p>
 <p>The generator will generate 2 files: <code>data/basic.json</code> and <code>data/full.json</code>. You&rsquo;re best to write your code and test with the basic file and then, when
 everything works, run your projection on the big (almost 1GB) full file.</p>
 <p>The event stream contains several types of events. The event stream is a JSON array of events. An event is structured like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
-  <span style="color:#960050;background-color:#1e0010">&#39;id&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;a</span> <span style="color:#960050;background-color:#1e0010">unique</span> <span style="color:#960050;background-color:#1e0010">id</span> <span style="color:#960050;background-color:#1e0010">for</span> <span style="color:#960050;background-color:#1e0010">this</span> <span style="color:#960050;background-color:#1e0010">event&#39;</span>
-  <span style="color:#960050;background-color:#1e0010">&#39;type&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;the</span> <span style="color:#960050;background-color:#1e0010">type</span> <span style="color:#960050;background-color:#1e0010">of</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">event&#39;,</span>
-  <span style="color:#960050;background-color:#1e0010">&#39;timestamp&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;the</span> <span style="color:#960050;background-color:#1e0010">moment</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">event</span> <span style="color:#960050;background-color:#1e0010">happened&#39;,</span>
-  <span style="color:#960050;background-color:#1e0010">&#39;payload&#39;:</span> <span style="color:#960050;background-color:#1e0010">{</span>
-    <span style="color:#960050;background-color:#1e0010">//</span> <span style="color:#960050;background-color:#1e0010">key-value</span> <span style="color:#960050;background-color:#1e0010">pairs</span> <span style="color:#960050;background-color:#1e0010">specific</span> <span style="color:#960050;background-color:#1e0010">to</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">event</span> <span style="color:#960050;background-color:#1e0010">type</span>
-    <span style="color:#960050;background-color:#1e0010">&#39;key1&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;value1&#39;,</span>
-    <span style="color:#960050;background-color:#1e0010">&#39;key2&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;value2&#39;;</span>
-    <span style="color:#960050;background-color:#1e0010">...</span>
-  }
-<span style="color:#960050;background-color:#1e0010">}</span>
-</code></pre></div><h2 id="all-done">All done</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">&#39;id&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;a</span> <span style="color:#960050;background-color:#1e0010">unique</span> <span style="color:#960050;background-color:#1e0010">id</span> <span style="color:#960050;background-color:#1e0010">for</span> <span style="color:#960050;background-color:#1e0010">this</span> <span style="color:#960050;background-color:#1e0010">event&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">&#39;type&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;the</span> <span style="color:#960050;background-color:#1e0010">type</span> <span style="color:#960050;background-color:#1e0010">of</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">event&#39;,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">&#39;timestamp&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;the</span> <span style="color:#960050;background-color:#1e0010">moment</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">event</span> <span style="color:#960050;background-color:#1e0010">happened&#39;,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">&#39;payload&#39;:</span> <span style="color:#960050;background-color:#1e0010">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// key-value pairs specific to the event type
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#960050;background-color:#1e0010">&#39;key1&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;value1&#39;,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">&#39;key2&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;value2&#39;;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">...</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">}</span>
+</span></span></code></pre></div><h2 id="all-done">All done</h2>
 <p>When you validated that you have both files you can go back to the <a href="/">overview</a>.</p>
 
     </div>
