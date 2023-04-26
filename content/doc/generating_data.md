@@ -3,8 +3,18 @@ title: "Generating data"
 date: 2019-08-16T20:16:54+02:00
 draft: false
 ---
+# Geting the data to generate projections
 
-## Download the generator
+To generate projections, you need a list of events. The events in this workshop will be provided as files.
+
+You can get these files by downloading them, which will consume network bandwidth, or by generating them, which will consumer CPU power.
+
+## Downloading the events
+Download these two files into a new subdirectory `data` of the directory you created earlier:
+- basic.json: this is a small file populated with a bit more than 10000 events. You can find it [here](https://playingwithprojections.s3.eu-west-1.amazonaws.com/basic.json.
+- full.json: this is a big file (918.3 MB). Don't open it in your editor or in your browser! It contains more than 3 million events. [Download this link, don't open it](https://playingwithprojections.s3.eu-west-1.amazonaws.com/full.json).
+
+## Generating the events
 
 You can download the generator for [Windows](/download/windows/generator.exe), [Mac](/download/mac/generator.exe) or [Linux](/download/linux/generator.exe).
 

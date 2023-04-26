@@ -28,7 +28,7 @@ good starter, but feel free to read the challenges and pick the one you like mos
 1. [Find the most popular quizzes (part 3)](/challenge/find_most_popular_quizzes_3)
 1. [Look for bots](/challenge/look_for_bots)
 1. [Who won this game](/challenge/who_won_the_game)
-1. [Who has the quiz high score](/challenge/who_has_the_quiz_high_score) (depends on look for bots and who won this game)
-1. [Top player of the month](/challenge/top_player_of_the_month) (depends on look for bots and who won this game)
+1. [Who has the quiz high score](/challenge/who_has_the_quiz_high_score) (depends on _Who won this game_)
+1. [Top player of the month](/challenge/top_player_of_the_month) (depends on _Who won this game_)
 1. [Types of players](/challenge/types_of_players)
 

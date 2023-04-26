@@ -11,14 +11,20 @@ In the top bar you can always find a direct link to this page and other useful p
 
 ## Before you start
 
-### 1. Generating data
+### 1. Create a work directory
 
-Read [this](/doc/generating_data) post and come back here when you are done.
+Create a new directory. You can call it anything you want, but we suggest naming it `playing_with_projections`. 
 
-### 2. Picking a technology
+### 2. Getting the data
 
-Please pick your preferred technology, and follow the readme for that repo. We **strongly urge** you to pick the language that you know best.
+Read [this page](/doc/generating_data) and come back here when you are done.
+
+### 3. Picking a technology
+
+Pick your preferred technology. We **strongly urge** you to pick the language that you know best.
 Although you can use this workshop for learning a new language, it's not the goal of the workshop.
+
+Clone that repository in the directory you created in step 1, and follow the readme for that repo. 
 
 - [C# (dotnetcore)](https://github.com/PlayingWithProjections/csharp)
 - [Java](https://github.com/PlayingWithProjections/java)

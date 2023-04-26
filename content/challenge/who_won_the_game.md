@@ -11,7 +11,7 @@ In case that multiple players have the same amount of points, there are multiple
 
 ## Bonus
 
-Ofcourse, we want to remove the [bots](/challenge/look_for_bots) from the winners. So these should be filtered out.
+We want to remove the [bots](/challenge/look_for_bots) from the winners. So these should be filtered out.
 
 ### Tip
 
