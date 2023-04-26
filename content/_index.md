@@ -63,12 +63,12 @@ playing_with_projections/
 - [Java](https://github.com/PlayingWithProjections/java)
 - [Javascript](https://github.com/PlayingWithProjections/javascript)
 - [F# (dotnetcore)](https://github.com/PlayingWithProjections/fsharp)
-- [ReasonML - native](https://github.com/PlayingWithProjections/reason)
 
 ### Unsupported/untested
 
 These repositories probably work as well, but they are less tested.
 
+- [ReasonML - native](https://github.com/PlayingWithProjections/reason)
 - [PHP](https://github.com/mathiasverraes/playingwithprojections-php)
 - [Haskell](https://github.com/mathiasverraes/playingwithprojections-haskell)
 
