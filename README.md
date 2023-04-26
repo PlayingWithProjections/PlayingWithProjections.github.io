@@ -4,6 +4,8 @@
 
 used the [documentation](https://gohugo.io/hosting-and-deployment/hosting-on-github/) to publish to github.
 
+You need hugo, if you have nix installed, you can run `nix develop -c ./deploy.sh`.
+
 ## Dependencies
 
 * [hugo](https://gohugo.io/)
