@@ -1,6 +1,5 @@
 ---
 title: "Count the number of registered players per month"
-date: 2019-08-17T09:45:26+02:00
 draft: false
 ---
 

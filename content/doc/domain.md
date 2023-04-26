@@ -1,6 +1,5 @@
 ---
 title: "Domain"
-date: 2019-08-17T09:33:28+02:00
 draft: false
 ---
 

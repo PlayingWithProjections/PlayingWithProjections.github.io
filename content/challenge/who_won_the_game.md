@@ -1,6 +1,5 @@
 ---
 title: "Determine the winner of a game"
-date: 2019-08-17T09:46:36+02:00
 draft: false
 ---
 

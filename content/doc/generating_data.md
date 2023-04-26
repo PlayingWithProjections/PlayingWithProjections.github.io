@@ -1,9 +1,8 @@
 ---
 title: "Generating data"
-date: 2019-08-16T20:16:54+02:00
 draft: false
 ---
-# Geting the data to generate projections
+# Getting the data to generate projections
 
 To generate projections, you need a list of events. The events in this workshop will be provided as files.
 
@@ -22,10 +21,10 @@ Move the executable to the base folder where you want to put your code as well a
 in a terminal** (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed,
 but you can still run it.
 
-## The data
+# The data
 
-The generator will generate 2 files: `data/basic.json` and `data/full.json`. You're best to write your code and test with the basic file and then, when
-everything works, run your projection on the big (almost 1GB) full file.
+The generator will generate 2 files: `data/basic.json` and `data/full.json`. Write and test your code with the basic file. When
+everything works, run your projection on the big full file.
 
 The event stream contains several types of events. The event stream is a JSON array of events. An event is structured like this:
 
@@ -44,5 +43,13 @@ The event stream contains several types of events. The event stream is a JSON ar
 ```
 
 ## All done
+
+Your directory structure should now look like this:
+```
+playing_with_projections/
+|--- data/
+|    |--- basic.json
+|    |--- full.json
+```
 
 When you validated that you have both files you can go back to the [overview](/).

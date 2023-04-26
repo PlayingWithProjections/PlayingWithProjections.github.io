@@ -1,6 +1,5 @@
 ---
 title: "Count the total number of events"
-date: 2019-08-17T09:40:38+02:00
 draft: false
 ---
 

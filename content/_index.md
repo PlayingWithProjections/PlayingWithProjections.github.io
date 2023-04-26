@@ -1,6 +1,5 @@
 ---
 title: "Overview"
-date: 2019-08-16T19:32:11+02:00
 draft: false
 description: "All the necessary information to complete the workshop!"
 ---
@@ -15,9 +14,10 @@ In the top bar you can always find a direct link to this page and other useful p
 
 Create a new directory. You can call it anything you want, but we suggest naming it `playing_with_projections`. 
 
-### 2. Getting the data
+### 2. The data
 
-Read [this page](/doc/generating_data) and come back here when you are done.
+
+To get these files, read [this page](/doc/generating_data) and come back here when you are done.
 
 ### 3. Picking a technology
 

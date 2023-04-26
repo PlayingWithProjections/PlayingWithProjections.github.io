@@ -1,6 +1,5 @@
 ---
 title: "Types of players"
-date: 2019-09-09T14:46:36+02:00
 draft: false
 ---
 

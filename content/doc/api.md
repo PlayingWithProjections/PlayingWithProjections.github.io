@@ -1,6 +1,5 @@
 ---
 title: "Eventstore API"
-date: 2019-08-17T09:51:06+02:00
 draft: false
 ---
 

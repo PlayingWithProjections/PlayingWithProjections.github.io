@@ -1,6 +1,5 @@
 ---
 title: "Overview of the challenges"
-date: 2019-08-17T10:10:46+02:00
 draft: false
 ---
 

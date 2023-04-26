@@ -1,6 +1,5 @@
 ---
 title: "Find the most popular quizzes (part 3)"
-date: 2019-08-17T09:45:38+02:00
 draft: false
 ---
 

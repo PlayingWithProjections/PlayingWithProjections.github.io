@@ -1,6 +1,5 @@
 ---
 title: "Count the number of registered players"
-date: 2019-08-17T09:42:20+02:00
 draft: false
 ---
 
