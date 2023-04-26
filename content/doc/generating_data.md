@@ -1,17 +1,14 @@
 ---
-title: "Generating data"
+title: "Getting the data files"
 draft: false
 ---
-# Getting the data to generate projections
 
-To generate projections, you need a list of events. The events in this workshop will be provided as files.
-
-You can get these files by downloading them, which will consume network bandwidth, or by generating them, which will consumer CPU power.
+If you have a stable network, you can download the files. If your network is unstable, you can download a small generator that will generate the files.
 
 ## Downloading the events
 Download these two files into a new subdirectory `data` of the directory you created earlier:
-- basic.json: this is a small file populated with a bit more than 10000 events. You can find it [here](https://playingwithprojections.s3.eu-west-1.amazonaws.com/basic.json.
-- full.json: this is a big file (918.3 MB). Don't open it in your editor or in your browser! It contains more than 3 million events. [Download this link, don't open it](https://playingwithprojections.s3.eu-west-1.amazonaws.com/full.json).
+- [basic.json](https://playingwithprojections.s3.eu-west-1.amazonaws.com/basic.json)
+- [full.json](https://playingwithprojections.s3.eu-west-1.amazonaws.com/full.json) - Don't open this file in your editor or browser, it is almost 1GB.
 
 ## Generating the events
 
@@ -21,28 +18,9 @@ Move the executable to the base folder where you want to put your code as well a
 in a terminal** (depending on your OS you need to give the binary executable rights). On both Mac and Windows you might get warnings that the executable is not signed,
 but you can still run it.
 
-# The data
+The generator will generate the 2 files.
 
-The generator will generate 2 files: `data/basic.json` and `data/full.json`. Write and test your code with the basic file. When
-everything works, run your projection on the big full file.
-
-The event stream contains several types of events. The event stream is a JSON array of events. An event is structured like this:
-
-```json
-{
-  'id': 'a unique id for this event'
-  'type': 'the type of the event',
-  'timestamp': 'the moment the event happened',
-  'payload': {
-    // key-value pairs specific to the event type
-    'key1': 'value1',
-    'key2': 'value2';
-    ...
-  }
-}
-```
-
-## All done
+# All done
 
 Your directory structure should now look like this:
 ```
