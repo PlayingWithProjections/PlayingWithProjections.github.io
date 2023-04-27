@@ -137,34 +137,53 @@
 <h2 id="before-you-start">Before you start</h2>
 <h3 id="1-create-a-work-directory">1. Create a work directory</h3>
 <p>Create a new directory. You can call it anything you want, but we suggest naming it <code>playing_with_projections</code>.</p>
-<h3 id="2-getting-the-data">2. Getting the data</h3>
-<p>Read <a href="/doc/generating_data">this page</a> and come back here when you are done.</p>
+<h3 id="2-the-data">2. The data</h3>
+<p>We need 2 files to execute the projections on:</p>
+<ul>
+<li><code>data/basic.json</code>: Write and test your code with the basic file.</li>
+<li><code>data/full.json</code>: When everything works, run your projection on this big full file.</li>
+</ul>
+<p>The event stream is a JSON array of events, with several types of events. An event is structured like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">&#39;id&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;a</span> <span style="color:#960050;background-color:#1e0010">unique</span> <span style="color:#960050;background-color:#1e0010">id</span> <span style="color:#960050;background-color:#1e0010">for</span> <span style="color:#960050;background-color:#1e0010">this</span> <span style="color:#960050;background-color:#1e0010">event&#39;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">&#39;type&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;the</span> <span style="color:#960050;background-color:#1e0010">type</span> <span style="color:#960050;background-color:#1e0010">of</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">event&#39;,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">&#39;timestamp&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;the</span> <span style="color:#960050;background-color:#1e0010">moment</span> <span style="color:#960050;background-color:#1e0010">the</span> <span style="color:#960050;background-color:#1e0010">event</span> <span style="color:#960050;background-color:#1e0010">happened&#39;,</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">&#39;payload&#39;:</span> <span style="color:#960050;background-color:#1e0010">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// key-value pairs specific to the event type
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#960050;background-color:#1e0010">&#39;key1&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;value1&#39;,</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">&#39;key2&#39;:</span> <span style="color:#960050;background-color:#1e0010">&#39;value2&#39;;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#960050;background-color:#1e0010">...</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">}</span>
+</span></span></code></pre></div><p>To get these two files, read <a href="/doc/generating_data">this page</a> and come back here when you are done.</p>
 <h3 id="3-picking-a-technology">3. Picking a technology</h3>
 <p>Pick your preferred technology. We <strong>strongly urge</strong> you to pick the language that you know best.
 Although you can use this workshop for learning a new language, it&rsquo;s not the goal of the workshop.</p>
 <p>Clone that repository in the directory you created in step 1, and follow the readme for that repo.</p>
-<ul>
-<li><a href="https://github.com/PlayingWithProjections/csharp">C# (dotnetcore)</a></li>
-<li><a href="https://github.com/PlayingWithProjections/java">Java</a></li>
-<li><a href="https://github.com/PlayingWithProjections/javascript">Javascript</a></li>
-<li><a href="https://github.com/PlayingWithProjections/fsharp">F# (dotnetcore)</a></li>
-<li><a href="https://github.com/PlayingWithProjections/reason">ReasonML - native</a></li>
-</ul>
-<h3 id="unsupporteduntested">Unsupported/untested</h3>
-<p>These repositories probably work as well, but they are less tested.</p>
-<ul>
-<li><a href="https://github.com/mathiasverraes/playingwithprojections-php">PHP</a></li>
-<li><a href="https://github.com/mathiasverraes/playingwithprojections-haskell">Haskell</a></li>
-</ul>
-<h2 id="you-have-picked-a-technology-and-it-is-running">You have picked a technology and it is running</h2>
-<p>If the client runs with the generated data, you&rsquo;re all set.</p>
+<p>This is what your working directory should look like at the end of this preparation:</p>
 <pre tabindex="0"><code>playing_with_projections/
 |--- data/
 |    |--- basic.json
 |    |--- full.json
 |--- [preferred technology]/
 |    |--- ...
-</code></pre><p>Now you can go on to explore <a href="/doc/domain">the domain</a> and read about the <a href="/doc/api">api</a>.</p>
+</code></pre><h3 id="maintained-technologies">Maintained technologies</h3>
+<ul>
+<li><a href="https://github.com/PlayingWithProjections/csharp">C# (dotnetcore)</a></li>
+<li><a href="https://github.com/PlayingWithProjections/java">Java</a></li>
+<li><a href="https://github.com/PlayingWithProjections/javascript">Javascript</a></li>
+<li><a href="https://github.com/PlayingWithProjections/fsharp">F# (dotnetcore)</a></li>
+</ul>
+<h3 id="unsupporteduntested">Unsupported/untested</h3>
+<p>These repositories probably work as well, but they are less tested.</p>
+<ul>
+<li><a href="https://github.com/PlayingWithProjections/reason">ReasonML - native</a></li>
+<li><a href="https://github.com/mathiasverraes/playingwithprojections-php">PHP</a></li>
+<li><a href="https://github.com/mathiasverraes/playingwithprojections-haskell">Haskell</a></li>
+</ul>
+<h2 id="you-have-picked-a-technology-and-it-is-running">You have picked a technology and it is running</h2>
+<p>If the client runs with the generated data, you&rsquo;re all set.</p>
+<p>Now you can go on to explore <a href="/doc/domain">the domain</a> and read about the <a href="/doc/api">api</a>.</p>
 <p>Once you are done with this you can start with <a href="/challenge/list">the challenges</a>.</p>
 
     </div>

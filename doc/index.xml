@@ -6,12 +6,20 @@
     <description>Recent content in Docs on Playing with Projections</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>By Thomas Coopman - Michel Grootjans</copyright>
-    <lastBuildDate>Sat, 17 Aug 2019 09:51:06 +0200</lastBuildDate><atom:link href="/doc/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>By Thomas Coopman - Michel Grootjans</copyright><atom:link href="/doc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domain</title>
+      <link>/doc/domain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/doc/domain/</guid>
+      <description>A listing of the events can be found here.</description>
+    </item>
+    
     <item>
       <title>Eventstore API</title>
       <link>/doc/api/</link>
-      <pubDate>Sat, 17 Aug 2019 09:51:06 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/doc/api/</guid>
       <description>As an exercise we have hugely simplfied the API while trying to find the relevant details necessary to implement this workshop.
@@ -20,24 +28,14 @@ In pseudo code an example could look like this:</description>
     </item>
     
     <item>
-      <title>Domain</title>
-      <link>/doc/domain/</link>
-      <pubDate>Sat, 17 Aug 2019 09:33:28 +0200</pubDate>
-      
-      <guid>/doc/domain/</guid>
-      <description>A listing of the events can be found here.</description>
-    </item>
-    
-    <item>
-      <title>Generating data</title>
+      <title>Getting the data files</title>
       <link>/doc/generating_data/</link>
-      <pubDate>Fri, 16 Aug 2019 20:16:54 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/doc/generating_data/</guid>
-      <description>Geting the data to generate projections To generate projections, you need a list of events. The events in this workshop will be provided as files.
-You can get these files by downloading them, which will consume network bandwidth, or by generating them, which will consumer CPU power.
+      <description>If you have a stable network, you can download the files. If your network is unstable, you can download a small generator that will generate the files.
 Downloading the events Download these two files into a new subdirectory data of the directory you created earlier:
-basic.json: this is a small file populated with a bit more than 10000 events.</description>
+basic.json full.json - Don&amp;rsquo;t open this file in your editor or browser, it is almost 1GB. Generating the events You can download the generator for Windows, Mac or Linux.</description>
     </item>
     
   </channel>
